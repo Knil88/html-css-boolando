@@ -43,9 +43,16 @@ header{
 
 #logo{
     width: 12%;
+    position: fixed;
+    left: 41%;
+
 
 }
 
+.icon-2{
+    position: fixed;
+    right: 17%;
+}
 
 .menu{
     display: flex;
