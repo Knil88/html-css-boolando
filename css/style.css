@@ -5,9 +5,12 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;
-
+    font-family: Helvetica,sans-serif;
 }
+
+
+
+
 header{
     background-color: #ff6900;
      height: 60px;
@@ -89,3 +92,40 @@ header{
 
 
 }
+.model-3{
+    width: 77%;
+}
+.b-3{
+    position: absolute;
+    right: 23%;
+    display: none;
+
+}
+
+
+.label {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    padding: 4px 5px;
+}
+.price{
+    background-color: lime;
+    bottom:7%;
+    
+}
+.sostenibilità {
+    background-color: green;
+    
+    bottom: 7%;
+    left: 14%;
+}
+
+.heart-2 {
+    
+    background-color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 23%;
+    top: 4%;
+    padding: 0 3%;
