@@ -65,8 +65,8 @@ header{
 .img{
     position: relative;
 }
-.heart{
-        .heart {
+.heart {
+        
         background-color: white;
         position: absolute;
         font-size: 25px;
@@ -76,7 +76,6 @@ header{
     }
     
     
-}
 .b{
     position: absolute;
     right: 5%;
