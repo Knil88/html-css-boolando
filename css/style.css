@@ -58,9 +58,35 @@ header{
     width: 95%;
 
 }
+.model-2{
+    width: 77%;
+    
+}
 .img{
     position: relative;
 }
+.heart{
+        .heart {
+        background-color: white;
+        position: absolute;
+        font-size: 25px;
+        right: 5%;
+        top: 4%;
+        padding: 0 3%;
+    }
+    
+    
+}
 .b{
+    position: absolute;
+    right: 5%;
+    display: none;
+
+}
+.b-2{
+    position: absolute;
+    right: 23%;
+    display: none;
+
 
 }
