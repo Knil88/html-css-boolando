@@ -64,14 +64,12 @@ header{
     padding-top: 40px;
     padding-left: 5px;
 }
-.model{
-    width: 95%;
+.model , .b{
+    width: 260px;
+    margin: 0 10px;
 
 }
-.model-2{
-    width: 77%;
-    
-}
+
 .img{
     position: relative;
 }
@@ -80,34 +78,26 @@ header{
         background-color: white;
         position: absolute;
         font-size: 25px;
-        right: 5%;
+        right: 3%;
         top: 4%;
         padding: 0 3%;
+        z-index: 1;
     }
     
     
 .b{
     position: absolute;
-    right: 5%;
+    right: 0%;
     display: none;
 
 }
-.b-2{
-    position: absolute;
-    right: 23%;
+/* .img:hover .b{ */
+    display: block;
+}
+.img:hover .model{
     display: none;
-
-
 }
-.model-3{
-    width: 77%;
-}
-.b-3{
-    position: absolute;
-    right: 23%;
-    display: none;
 
-}
 
 
 .label {
@@ -115,24 +105,17 @@ header{
     color: white;
     font-size: 12px;
     padding: 4px 5px;
+    z-index: 1;
 }
 .price{
     background-color: lime;
     bottom:7%;
+    left: 4%;
     
 }
 .sostenibilità {
     background-color: green;
-    
-    bottom: 7%;
-    left: 14%;
+     bottom: 7%;
+    left: 20%;
 }
 
-.heart-2 {
-    
-    background-color: white;
-    position: absolute;
-    font-size: 25px;
-    right: 23%;
-    top: 4%;
-    padding: 0 3%;
