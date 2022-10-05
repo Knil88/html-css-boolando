@@ -11,6 +11,8 @@ body{
 
 
 
+        /*Regole Header  */
+
 header{
     background-color: #ff6900;
      height: 60px;
@@ -65,6 +67,11 @@ header{
     margin: 0 10px;
 
 }
+    /* Parte Principale */
+
+    main{
+        padding-bottom: 65px;
+    }
 
 .img{
     position: relative;
@@ -89,7 +96,7 @@ header{
     display: none;
     width: 290px;
     margin: 0 10px;
-
+   
 }
 .img:hover .b{
     display: block;
@@ -145,4 +152,47 @@ font-size: 11px;
     font-size: 12px;
     color: red;
     font-weight: 900;
+}
+
+/* Regole footer */
+footer{
+    background-color: #1a1a1a;
+    height: 150px;
+    
+    
+    
+}
+.credit {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 14%;
+    border-bottom: white solid 1px;
+    
+    
+    
+}
+.info{
+    padding-left:5%
+}
+.find-us{
+    font-size: 11px;
+    
+}
+
+.found {
+    
+    width: max-content;
+    
+}
+   
+.icon-credit{
+padding: 5px 5px;  
+   
+
+}
+.item-1 {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
 }
