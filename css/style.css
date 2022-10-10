@@ -13,12 +13,16 @@ body{
 
         /*Regole Header  */
 
-header{
-    background-color: #ff6900;
-     height: 60px;
-    padding: 15px 0;
-    color: white;
-}
+        header {
+            
+            background-color: #ff6900;
+            
+            padding: 15px 0;
+            color: white;
+            position: fixed;
+            width: 100%;
+            z-index: 500;
+        }
 
 #barra{
     width: 80%;
